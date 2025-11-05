@@ -1,0 +1,32 @@
+<h2>Thêm phòng mới</h2>
+
+<form asp-action="AddProperty" method="post">
+    <div class="mb-2">
+        <label>Tên phòng</label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+    <div class="mb-2">
+        <label>Địa chỉ</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <div class="mb-2">
+        <label>Giá</label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div class="mb-2">
+        <label>Mô tả</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <div class="mb-2">
+        <label>Số lượng tối đa</label>
+        <input asp-for="MaxOccupancy" class="form-control" />
+    </div>
+    <div class="mb-2">
+        <label>Trạng thái</label>
+        <select asp-for="Status" class="form-control">
+            <option value="Available">Available</option>
+            <option value="Booked">Booked</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Lưu</button>
+</form>

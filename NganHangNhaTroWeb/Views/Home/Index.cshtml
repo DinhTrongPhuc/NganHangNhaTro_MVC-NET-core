@@ -1,0 +1,26 @@
+﻿<h2>Danh sách phòng trọ</h2>
+
+<form method="get">
+    <input type="number" name="minPrice" placeholder="Giá từ">
+    <input type="number" name="maxPrice" placeholder="Đến">
+    <button type="submit">Tìm kiếm</button>
+</form>
+
+<div class="row">
+@foreach(var room in Model)
+{
+    <div class="col-md-4 mb-3">
+        <div class="card p-3 rounded shadow-sm">
+            <h5>@room.Title</h5>
+            <p>@room.Address</p>
+            <p>Giá: @room.Price.ToString("N0") VNĐ</p>
+            <p>Trạng thái: @room.Status</p>
+            <a class="btn btn-primary" asp-action="Details" asp-controller="Property" asp-route-id="@room.IdProperty">Xem chi tiết</a>
+            @if(room.Status == "Available")
+            {
+                <a class="btn btn-success" asp-action="Book" asp-controller="Booking" asp-route-id="@room.IdProperty">Đặt phòng</a>
+            }
+        </div>
+    </div>
+}
+</div>

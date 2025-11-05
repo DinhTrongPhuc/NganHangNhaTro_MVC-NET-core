@@ -1,0 +1,29 @@
+<h2>Quản lý người dùng</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Họ tên</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Role</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var user in Model)
+    {
+        <tr>
+            <td>@user.Username</td>
+            <td>@user.FullName</td>
+            <td>@user.Email</td>
+            <td>@user.PhoneNumber</td>
+            <td>@user.Role</td>
+            <td>
+                <a class="btn btn-danger" asp-action="DeleteUser" asp-route-id="@user.IdUser">Xóa</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

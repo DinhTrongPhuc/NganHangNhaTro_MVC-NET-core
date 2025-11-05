@@ -1,0 +1,34 @@
+@model NganHangNhaTroWeb.Models.User
+
+<h2>Đăng ký</h2>
+
+<form asp-action="Register" method="post">
+    <div>
+        <label>Username:</label>
+        <input asp-for="Username" required />
+    </div>
+    <div>
+        <label>Password:</label>
+        <input asp-for="Password" type="password" required />
+    </div>
+    <div>
+        <label>Họ tên:</label>
+        <input asp-for="FullName" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label>Số điện thoại:</label>
+        <input asp-for="PhoneNumber" />
+    </div>
+    <div>
+        <label>Vai trò:</label>
+        <select asp-for="Role">
+            <option value="User">Người thuê</option>
+            <option value="Owner">Chủ trọ</option>
+        </select>
+    </div>
+    <button type="submit">Đăng ký</button>
+</form>

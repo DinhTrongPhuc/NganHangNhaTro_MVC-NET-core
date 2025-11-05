@@ -1,0 +1,10 @@
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.csproj.AssemblyReference.cache
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.AssemblyInfoInputs.cache
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.AssemblyInfo.cs
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.csproj.CoreCompileInputs.cache
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.MvcApplicationPartsAssemblyInfo.cache
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.RazorAssemblyInfo.cache
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.RazorAssemblyInfo.cs
+D:\2025-2026\WebNc\NganHangNhaTro_MVC-NET-core\NganHangNhaTroWeb\obj\Debug\net9.0\NganHangNhaTroWeb.sourcelink.json

@@ -1,0 +1,28 @@
+<h2>Quản lý tất cả phòng trọ</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên phòng</th>
+            <th>Địa chỉ</th>
+            <th>Giá</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach(var room in Model)
+    {
+        <tr>
+            <td>@room.Title</td>
+            <td>@room.Address</td>
+            <td>@room.Price.ToString("N0") VNĐ</td>
+            <td>@room.Status</td>
+            <td>
+                <a class="btn btn-primary" asp-action="EditProperty" asp-route-id="@room.IdProperty">Sửa</a>
+                <a class="btn btn-danger" asp-action="DeleteProperty" asp-route-id="@room.IdProperty">Xóa</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
