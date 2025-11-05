@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NganHangNhaTroWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68f303f67d350930209db54b7196e7b92dabe5a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de3171226d19b630d192ec695c37aa3e13f7a8b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NganHangNhaTroWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NganHangNhaTroWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
